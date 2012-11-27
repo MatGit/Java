@@ -36,16 +36,7 @@ class Calcul extends JComponent
 	JButton virgule= new JButton (",");
 	JButton retour= new JButton("<");
 
-	JButton zero= new JButton("0");
-	JButton un= new JButton("1");
-	JButton deux= new JButton("2");
-	JButton trois= new JButton("3");
-	JButton quatre= new JButton("4");
-	JButton cinq= new JButton("5");
-	JButton six= new JButton("6");
-	JButton sept= new JButton("7");
-	JButton huit= new JButton("8");
-	JButton neuf= new JButton("9");
+
 
 	public Calcul(String message)
 	{
