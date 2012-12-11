@@ -1,6 +1,3 @@
-import java.awt.*;
-import javax.swing.* ;
-
 class FenMenu extends JFrame
 { public FenMenu ()
   { setTitle ("Exemple de menus") ;
