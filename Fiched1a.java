@@ -3,7 +3,7 @@
 class FenMenu extends JFrame
 { public FenMenu ()
   { setTitle ("Exemple de menus") ;
-    setSize (300, 120) ;
+    setSize (500, 220) ;
      /* creation barre des menus */
     barreMenus = new JMenuBar() ;
     setJMenuBar(barreMenus) ;
