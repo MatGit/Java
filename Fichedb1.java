@@ -10,7 +10,13 @@ class FenMenu extends JFrame
     setJMenuBar(barreMenus) ;
      /* creation menu Fichier et ses options */
     fichier = new JMenu ("Fichier") ;
-    barreMenus.add(fichier) ;
+    barreMenus.add(fichier) ;sauvegarder = ajoute ("Sauvegarder", fichier) ;
+    fermer = ajoute ("Fermer", fichier) ;
+     /* creation menu Edition et ses options */
+    edition = new JMenu ("Edition") ;
+    barreMenus.add (edition) ;
+    copier = ajoute ("Copier", edition) ;
+    coller = ajoute ("Coller", edition) ;
     ouvrir = ajoute ("Ouvrir", fichier) ;
     sauvegarder = ajoute ("Sauvegarder", fichier) ;
     fermer = ajoute ("Fermer", fichier) ;
